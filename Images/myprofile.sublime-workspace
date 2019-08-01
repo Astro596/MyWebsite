@@ -1,0 +1,364 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"border-s",
+				"border-style\tproperty"
+			],
+			[
+				"margi",
+				"margin-bottom\tproperty"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"sr",
+				"script\tTag"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"vidoe",
+				"videos"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"paddi",
+				"padding-left\tproperty"
+			],
+			[
+				"a",
+				"alt\tAttr"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"bo",
+				"border-color\tproperty"
+			],
+			[
+				"FO",
+				"font-weight\tproperty"
+			],
+			[
+				"tra",
+				"transform\tproperty"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"nav",
+				"nav-links"
+			],
+			[
+				"tr",
+				"translateX()\ttransform"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"b",
+				"black"
+			],
+			[
+				"tet",
+				"text-decoration\tproperty"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"sty",
+				"stlye"
+			],
+			[
+				"f",
+				"float\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\n\n\n<!DOCTYPE html>\n    <html>\n    <head>\n      <title>MyProfile</title>\n<link href=\"https://fonts.googleapis.com/css?family=Barriecito|Belleza|Spectral&display=swap\" rel=\"stylesheet\">\n          <link href=\"https://fonts.googleapis.com/css?family=Open+Sans&display=swap\" rel=\"stylesheet\">\n          <link href=\"https://fonts.googleapis.com/css?family=Muli&display=swap\" rel=\"stylesheet\">\n          <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n    </head>\n    \n    <body>\n  \n\n   <!-- MY NAVIGATION SECTION-->\n\n          <nav>                                                                    \n              <div class=\"custom-padding\">\n                  <div class = \"logo\">\n                      <img src='Images/logo.png'>\n                   </div>                                                            \n\n                    <div class=\"menu\">                                                \n                    \n                        <ul>\n                             <li>                                                          \n                                   <a href= \"#\">Home</a> \n                             </li>\n\n                             <li>\n                                   <a href= \"#About\">About</a>\n                             </li>\n\n                             <li>\n                                   <a href= \"#Images\">Images</a>\n                              </li>\n\n                              <li>\n                                   <a href= \"#Work\">Work</a>\n                             </li>\n\n                             <li>\n                                   <a href= \"#Contacts\">Contacts<a/>\n                             </li>\n                       </ul>\n\n                    </div>\n                  </a>\n                </li>\n              </ul>\n            </div>\n          </div>\n    \n            </nav>\n\n\n           <!-- MY HEADER-->\n\n            <header>\n                <div class = info-container>\n                  <img src=\"images/16.jpg\">\n                      <p>Hello World, my name is Asavela Figlan</p>\n                      <h1>WEB DEVELOPER</h1>\n                      <a href = \"#Work\" class=\"btn-projects\">PROJECTS</a>\n                      <a href = \"#Contacts\" class=\"btn-contacts\">CONTACTS</a>\n                </div>\n            </header>\n\n\n\n           <!-- ABOUT ME SECTION-->\n\n\n<div class=\"about-me\" id=\"About\">\n    <h2>about me</h2>\n          <div class=\"col-left\">\n          <img src=\"images/p2.jpg\" alt=\"\">\n          </div>         \n       <div class=\"col-right\">\n                                <p>Hi there, I am an aspiring web developer at younglings  based in ,Cape Town.I specialize in web development my skills are JavaScript, JQuery, HTML,CSS, Web Programming Skills.</p>\n               <a href=\"#Work\">SEE MY WORK</a>\n             \n\n         </div>\n  </div>\n\n\n<!************MY Gallary**********>\n\n\n  \n <div class=\"images\" id=\"Images\">\n    <h2>MY PHOTOS</h2>\n\n    <div class=\"images-left\">\n               <img src=\"images/1.jpeg\" width=\"350\" height=\"300\">\n\n               </div>\n\n    <div class=\"images-center\">\n         <img src=\"images/2.jpg\" width=\"350\" height=\"300\">\n        </div>\n\n      <div class=\"images-right\">\n          <img src=\"images/4.jpg\" width=\"350\" height=\"300\">\n\n        </div>\n\n        <div class=\"images-left\">\n          <img src=\"images/5.jpg\" width=\"350\" height=\"300\">\n\n        </div>\n\n        <div class=\"images-center\">\n          <img src=\"images/6.jpg\" width=\"350\" height=\"300\">\n\n        </div>\n\n\n        <div class=\"images-right\" >\n          <img src=\"images/7.jpg\"  width=\"350\" height=\"300\">\n\n        </div>\n      </div>\n      </div>\n\n    \n </div>\n\n\n <!*********My work*********************>\n\n       <div class=\"video\" id=\"Work\">\n            <h2>My Work</h2>\n               <div class=\"video-left\">\n                   <video width=\"350\" height=\"350\" controls>\n                   <source src=\"v4.mp4\" type=\"video/mp4\">\n                   </video>\n               </div>\n\n    \n               <div class=\"video-center\" id=\"Work\">     \n                   <video width=\"350\" height=\"350\" controls>\n                   <source src=\"v2.mp4\" type=\"video/mp4\">\n                   </video>\n               </div>\n\n               \n               <div class=\"video-right\" id=\"Work\">    \n                   <video width=\"350\" height=\"350\" controls>\n                   <source src=\"v3.mp4\" type=\"video/mp4\">\n                    </video>\n               </div>\n\n               \n      </div>\n\n\n\n\n\n<!************CONTACTS**********>\n\n \n <div class=\"contacts\" id=\"Contacts\">\n    <h2>Contacts</h2>\n\n              \n              <p>Got a question?I would love to hear from you,Send us message I will respond as soon as possible.</p>\n             <div class=\"form1\">\n            <input type=\"text\" placeholder=\"Name\" style =\"font-size:170%; border-style: none; padding: 15px; margin-bottom: 5px;\">\n            <input type=\"email\" required placeholder=\"Email\" style=\"font-size: 170%; border-style: none; padding: 15px; margin-bottom: 5px;\">\n            <textarea placeholder=\"message\" style=\"height: 45vh; width: 470px;font-size:170%; border-style: none; padding: 15px; margin-bottom: 5px;\"></textarea>\n            <button type=\"submit\" style=\"border-style: none; border-radius: 10px\"><b>Send</b> </button>\n          </form>\n        </div>\n    \n            <div class=\"social1\">\n           <b> <p>Follow me on social media</p></b>\n           <a href=\"https://twitter.com/figlan_asavela\" class=\"fa fa-twitter\" target=\"_blank\"></a>\n            <a href=\"https://myaccount.google.com/?utm_source=OGB&tab=kk&utm_medium=act\" class=\"fa fa-google\" target=\"_blank\"></a>\n           <a href=\"https://github.com/Astro596\" class=\"fa fa-github\" target=\"_blank\"></a>\n           \n         </div>\n           \n      </div>\n   \n   </div>\n\n</p>\n</div>\n\n           \n          <link rel=\"stylesheet\" type=\"\" href=\"style.css\">\n          \n\n\n\n\n\n\n<script type=\"text/javascript\" src=\"javascript.js\"></script>\n\n</body>\n<footer>©2019 Copyright: A.Figlan.</footer>\n</html>",
+			"file": "index.html",
+			"file_size": 6299,
+			"file_write_time": 132088797078824125,
+			"settings":
+			{
+				"buffer_size": 6091,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Astro/Desktop/Final/Images/Javascript/javascript.js",
+		"/C/Users/Astro/Desktop/Project2/style.css",
+		"/C/Users/Astro/Desktop/Project2/css/style.css",
+		"/C/Users/Astro/Desktop/Project1/css/style.css",
+		"/C/Users/Astro/Desktop/Project1/index.html",
+		"/C/Users/Astro/Desktop/Project1/jscript/profile.javascript",
+		"/C/Users/Astro/Desktop/Project1/project1.css"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\">\n",
+			"60px",
+			"background"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5880,
+								5880
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2550.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "myprofile.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

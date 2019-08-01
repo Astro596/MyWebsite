@@ -1,0 +1,528 @@
+*{
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h5,li,{
+	font-family: 'Open 'Muli' serif;
+	font-size: 25px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+body{
+	margin: 0;
+	font-family: 'Open Sans' ,sans-serif;
+	
+} 
+
+/***********************navigation section****************************************** */
+
+nav{
+   
+	background-color: green;
+	font-family: 'Muli', sans-serif;
+	height:75px;
+	width: 100%;
+	
+
+	
+}
+   
+	
+
+
+
+.menu {
+display: inline-block;
+float:right;
+font-size: 2px;
+font-family: 'Muli', sans-serif;
+margin-left: ;
+
+}
+
+.menu ul {
+	list-style: none;
+	padding-left: 0px;
+	margin:0;
+	padding-top: 13px;
+
+}
+
+
+.menu ul li {
+	display: flex;
+	display: inline-block;
+	margin-right: 1px;
+	color: white;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 20px 10px 20px 10px;
+	font-size: 28px;
+	color: white;
+}
+
+.menu  ul li a:hover {
+	background-color: #f16334;
+	transition: all 0.5s ease;
+}
+
+
+/************************Header section*************************************/
+
+header{
+	background-color: #f16334;
+	 height: 100vh;
+     background-size:cover;       
+     background-repeat: no-repeat;            
+     background-attachment: fixed;
+     background-position-y:-160px;
+     
+     
+
+}
+
+.logo {
+
+   display: inline-block;
+   margin: 5px;
+   margin-bottom: 0px;
+   font-family: 'Niconne', cursive;
+   background-repeat: no-repeat; 
+}
+
+
+header img {
+	
+	font-size: 30px;
+     border-radius: 50%;
+     height: 250px;
+     width: 250px;
+     border-bottom-right-radius: 4px;
+
+
+}
+
+
+
+
+
+.info-container{
+	text-align: center;
+	padding-top: 1%;
+}
+
+/******My header buttons*****/
+
+.btn-projects{
+background-color: #85af4b;
+font-size: 30px;
+display: inline-block;
+padding:4% 4%;
+color:white;
+font-weight: bold;
+border-radius:10%;
+text-decoration: none;
+
+}
+
+.btn-contacts{
+   background-color: #85af4b;
+   font-size: 30px;
+   color:white;
+   display: inline-block;
+   font-weight: bold;
+   border-radius: 10%;
+   padding: 4% 4%;
+   text-decoration: none;
+
+}
+
+.btn-projects:hover{
+	background-color: white;
+	color: #85af4b;
+	transition: all 0.5s ease;
+
+}
+
+.btn-contacts:hover{
+	background-color: white;
+	color: #85af4b;
+	transition: all 0.5s ease;
+
+}
+
+/************************about me section*************/
+
+.about-me {
+	background-color: #f16334;
+	 height: 100vh;
+     background-size:cover;       
+     background-repeat: no-repeat;            
+     background-attachment: fixed;
+     background-position-y:-160px;
+    margin-bottom: 0%;
+	padding: 3%;
+	padding-top: ;
+	position:relative;
+	object-fit: cover; 
+    background-size:cover;       
+    background-repeat: no-repeat;            
+     padding-left: 2%;
+     
+}
+.about-me h2{
+	position:relative;
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+ 
+}
+
+
+
+
+.about-me h2:after{
+	content: '';
+	position: absolute;
+	width:80px;
+	height:2px;
+	margin-left: -40px;
+	left: 50%;
+	bottom:0px;
+	background-color: #85af4b;
+
+}
+
+
+
+
+.about-me a:hover{
+	background-color: #fff;
+	color: #85af4b;
+   padding-right:  20%;
+}
+
+.about-me .col-left{
+    width: 35%;
+    float: left;
+    padding-left:4%;
+    margin-top: 1%; 
+
+   
+}
+
+
+
+.about-me .col-right{
+	margin-left: 13%;
+	margin-top: 4%;
+    padding-right: 19%;
+    color: white;
+    font-size: 27px;
+	
+}
+
+.about-me .col-left img{
+	max-width: 100%;
+	border-radius: %;
+	height: 480px;
+	width: 480px;
+	margin-right: 20%;
+	color:blue;
+    padding-right: 20%;
+	
+
+}
+
+.about-me a{
+	background-color: #85af4b;
+	padding: 20px 20px;
+	text-decoration: none;
+	text-align: center;
+	padding-right: 3px;
+	color:white;
+	border-radius: 20px;
+	display: inline-block;
+	border:1px solid #85af4b;
+	padding-right: 5%;
+	align-content: center;
+}
+
+
+
+
+/************************images*************/
+
+.images {
+	background-color: #f16334;
+	 height: 100vh;
+     background-size:cover;       
+     background-repeat: no-repeat;            
+     background-attachment: fixed;
+     background-position-y:-160px;
+    margin-bottom: 0%;
+	padding: 3%;
+	padding-bottom:7px ;
+	position:relative;
+	object-fit: cover; 
+    background-size:cover;       
+    background-repeat: no-repeat;            
+     padding-left: 15%;
+     
+}
+.images h2{
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+
+}
+
+.images h2:after{
+	content: '';
+    position: absolute;
+	width: 80px;
+	height: 2px;
+	margin-left: -43px;
+	left:50%;
+	bottom: 0px;
+	background-color: #85af4b;
+
+}
+	
+
+
+
+
+.images .images-left, .images .images-center, .images .images-right,
+.images .images-left, .images .images-center, .images .images-right
+{
+	width: 16,66%;	    
+	display: inline-block;
+	
+
+}
+
+
+
+
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+
+ 
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
+
+/************************my work*************/
+
+
+.video {
+	background-color: #f16334;
+	 height: 100vh;
+     background-size:cover;       
+     background-repeat: no-repeat;            
+     background-attachment: fixed;
+     background-position-y:-160px;
+    margin-bottom: 0%;
+	padding: 3%;
+	padding-bottom:7px ;
+	position:relative;
+	object-fit: cover; 
+    background-size:cover;       
+    background-repeat: no-repeat;            
+     padding-left: 3%;
+     
+}
+.video h2{
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+
+}
+
+.video h2:after{
+	content: '';
+    position: absolute;
+	width: 80px;
+	height: 2px;
+	margin-left: -43px;
+	left:50%;
+	bottom: 0px;
+	background-color: #85af4b;
+
+}
+	
+
+.video .video-left, .video .video-center, .video .video-right
+{
+	width: 33.33%;       
+	display: inline-block;
+	float: left;
+
+
+}
+
+
+
+
+
+/************************Contact form and social*************/
+
+
+
+
+.contacts{
+    height: 100vh;
+	background-color: #f16334;
+	background-size:cover;       
+    position:relative;
+	object-fit: cover; 
+    transition: .5s;
+    background-size:cover;       
+    background-repeat: no-repeat;            
+    padding-top: 0px;
+
+    
+
+}
+
+.contacts p{
+         font-size:150%;
+         padding-left: 15%;
+        
+
+}
+
+
+
+.contacts h2{
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+    
+}
+
+.contacts h2:after{
+	content: '';
+    margin-left: -43px;
+	left:50%;
+	bottom: 0px;
+	background-color: #85af4b;
+
+}
+
+
+
+.contacts h6{
+	padding-left: 20%;
+	font-size: 90%;
+}
+
+input {
+	display: block;
+	height: 100%;
+    width: 100%;
+    
+
+}
+
+
+button{
+font-size: 30px;
+display:block;
+width: 60%;
+height: 3%;
+margin-left: 19%;
+background-color: #85af4b;
+border-radius: 6%;
+
+}
+
+.form1{
+	display: inline-block;
+	padding-left: 32%;
+
+
+	}
+
+
+
+.social1{
+    margin-left: 20%;
+	font-size: 25px;
+
+	
+}
+.social1 a{
+	padding-left: 2%;
+	padding-right: 4%;
+}
+
+.social1 p {
+	margin-left: 4%;
+	padding-right: 12%;
+	font-size: 27px;
+	color:brown;
+
+}
+
+
+
+.fa {
+
+  margin-left:12%;
+  padding: 10px;
+  font-size: 14px;
+  width: 20px;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: white;
+  
+}
+
+input[type=text] [type=message] [type=Email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  border-style: none;
+
+
+
+}
+
+
+footer{
+	
+	text-align: center;
+	
+}
+
+
+
+
+
